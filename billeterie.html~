@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Billeterie</title>  
+    <link rel="stylesheet" type="text/css" href="billeterie.css">	 
+  </head>
+  <body>
+<div id="exterieur">
+  <main id="principal">
+   <ul id="single-game">
+    <li class="schedule">
+	<div class="tickets">
+		<div class="date">
+			<span class="day">Mercredi</span>
+			<span class="daytime-month">14 Janvier</span>
+		</div>
+
+		<div class="event_team">
+		
+			<div class="event_team_visitor">
+				<div class="event_team_visitor_inner_wrapped">
+					<div class="event_team_visitor-details">
+						<div class="event_team_visitor-details_inner_wrapped">
+							<span class="city_visitor-details_inner_wrapped">Limoges</span>
+							<span class="team_name_visitor-details_inner_wrapped">Austin Youth</span>
+						</div>
+					</div>
+					<div class="event_team_visitor_logo">
+						<img src="logo_billet/equipe1.png" alt="Austin Youth">
+					</div>
+				</div>
+			</div>
+		
+			<div class="event_team_wrapped">
+				<span class="vs">vs</span>
+			</div>
+		
+			<div class="event_team_home">
+				<div class="event_team_home_inner_wrapped">
+					<div class="event_team_home-details">
+						<div class="event_team_home-details_inner_wrapped">
+							<span class="city_home-details_inner_wrapped">Seine-Saint-Denis</span>
+							<span class="team_name_home-details_inner_wrapped">DreamTeam</span>
+						</div>
+					</div>
+					<div class="event_team_home_logo">
+						<img src="logo_billet/The_Dreamteam_logo.jpeg" alt="DreamTeam">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="game-time">
+			<div class="game-time_info">
+				<div class="time">18H00</div>
+			</div>
+		</div>
+	
+		<div class="reservation">
+			<div class="reservation_inner_wrapped">
+				<div class="reservation_reservation">
+					<a href="indisponible.html">À partir de 15€</a>
+				</div>
+			</div>
+		</div>
+	</div>
+    </li>
+
+    <li class="schedule">
+	<div class="tickets">
+		<div class="date">
+			<span class="day">Mardi</span>
+			<span class="daytime-month">20 Janvier</span>
+		</div>
+
+		<div class="event_team">
+		
+			<div class="event_team_visitor">
+				<div class="event_team_visitor_inner_wrapped">
+					<div class="event_team_visitor-details">
+						<div class="event_team_visitor-details_inner_wrapped">
+							<span class="city_visitor-details_inner_wrapped">Toulose</span>
+							<span class="team_name_visitor-details_inner_wrapped">Panthers</span>
+						</div>
+					</div>
+					<div class="event_team_visitor_logo">
+						<img src="logo_billet/equipe2.png" alt="panthers">
+					</div>
+				</div>
+			</div>
+		
+			<div class="event_team_wrapped">
+				<span class="vs">vs</span>
+			</div>
+		
+			<div class="event_team_home">
+				<div class="event_team_home_inner_wrapped">
+					<div class="event_team_home-details">
+						<div class="event_team_home-details_inner_wrapped">
+							<span class="city_home-details_inner_wrapped">Seine-Saint-Denis</span>
+							<span class="team_name_home-details_inner_wrapped">DreamTeam</span>
+						</div>
+					</div>
+					<div class="event_team_home_logo">
+						<img src="logo_billet/The_Dreamteam_logo.jpeg" alt="DreamTeam">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="game-time">
+			<div class="game-time_info">
+				<div class="time">19H30</div>
+			</div>
+		</div>
+	
+		<div class="reservation">
+			<div class="reservation_inner_wrapped">
+				<div class="reservation_reservation">
+					<span class="prix">À partir de 15€</span>
+				</div>
+			</div>
+		</div>
+	</div>
+    </li>
+
+    <li class="schedule">
+	<div class="tickets">
+		<div class="date">
+			<span class="day">Vendredi</span>
+			<span class="daytime-month">30 Janvier</span>
+		</div>
+
+		<div class="event_team">
+		
+			<div class="event_team_visitor">
+				<div class="event_team_visitor_inner_wrapped">
+					<div class="event_team_visitor-details">
+						<div class="event_team_visitor-details_inner_wrapped">
+							<span class="city_visitor-details_inner_wrapped">Strasbourg</span>
+							<span class="team_name_visitor-details_inner_wrapped">Summer Storm</span>
+						</div>
+					</div>
+					<div class="event_team_visitor_logo">
+						<img src="logo_billet/equipe3.jpg" alt="Summerside strom">
+					</div>
+				</div>
+			</div>
+		
+			<div class="event_team_wrapped">
+				<span class="vs">vs</span>
+			</div>
+		
+			<div class="event_team_home">
+				<div class="event_team_home_inner_wrapped">
+					<div class="event_team_home-details">
+						<div class="event_team_home-details_inner_wrapped">
+							<span class="city_home-details_inner_wrapped">Seine-Saint-Denis</span>
+							<span class="team_name_home-details_inner_wrapped">DreamTeam</span>
+						</div>
+					</div>
+					<div class="event_team_home_logo">
+						<img src="logo_billet/The_Dreamteam_logo.jpeg" alt="DreamTeam">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="game-time">
+			<div class="game-time_info">
+				<div class="time">21H30</div>
+			</div>
+		</div>
+	
+		<div class="reservation">
+			<div class="reservation_inner_wrapped">
+				<div class="reservation_reservation">
+					<span class="prix">À partir de 15€</span>
+				</div>
+			</div>
+		</div>
+	</div>
+    </li>
+
+    <li class="schedule">
+	<div class="tickets">
+		<div class="date">
+			<span class="day">Vendredi</span>
+			<span class="daytime-month">6 Fevrier</span>
+		</div>
+
+		<div class="event_team">
+		
+			<div class="event_team_visitor">
+				<div class="event_team_visitor_inner_wrapped">
+					<div class="event_team_visitor-details">
+						<div class="event_team_visitor-details_inner_wrapped">
+							<span class="city_visitor-details_inner_wrapped">Marseille</span>
+							<span class="team_name_visitor-details_inner_wrapped">Knights</span>
+						</div>
+					</div>
+					<div class="event_team_visitor_logo">
+						<img src="logo_billet/equipe4.jpg" alt="Knight Basketball">
+					</div>
+				</div>
+			</div>
+		
+			<div class="event_team_wrapped">
+				<span class="vs">vs</span>
+			</div>
+		
+			<div class="event_team_home">
+				<div class="event_team_home_inner_wrapped">
+					<div class="event_team_home-details">
+						<div class="event_team_home-details_inner_wrapped">
+							<span class="city_home-details_inner_wrapped">Seine-Saint-Denis</span>
+							<span class="team_name_home-details_inner_wrapped">DreamTeam</span>
+						</div>
+					</div>
+					<div class="event_team_home_logo">
+						<img src="logo_billet/The_Dreamteam_logo.jpeg" alt="DreamTeam">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="game-time">
+			<div class="game-time_info">
+				<div class="time">19H45</div>
+			</div>
+		</div>
+	
+		<div class="reservation">
+			<div class="reservation_inner_wrapped">
+				<div class="reservation_reservation">
+					<span class="prix">À partir de 15€</span>
+				</div>
+			</div>
+		</div>
+	</div>
+    </li>
+
+    <li class="schedule">
+	<div class="tickets">
+		<div class="date">
+			<span class="day">Samedi</span>
+			<span class="daytime-month">17 Fevrier</span>
+		</div>
+
+		<div class="event_team">
+		
+			<div class="event_team_visitor">
+				<div class="event_team_visitor_inner_wrapped">
+					<div class="event_team_visitor-details">
+						<div class="event_team_visitor-details_inner_wrapped">
+							<span class="city_visitor-details_inner_wrapped">Québec</span>
+							<span class="team_name_visitor-details_inner_wrapped">RedLeaf</span>
+						</div>
+					</div>
+					<div class="event_team_visitor_logo">
+						<img src="logo_billet/equipe5.jpg" alt="Canada basketball">
+					</div>
+				</div>
+			</div>
+		
+			<div class="event_team_wrapped">
+				<span class="vs">vs</span>
+			</div>
+		
+			<div class="event_team_home">
+				<div class="event_team_home_inner_wrapped">
+					<div class="event_team_home-details">
+						<div class="event_team_home-details_inner_wrapped">
+							<span class="city_home-details_inner_wrapped">Seine-Saint-Denis</span>
+							<span class="team_name_home-details_inner_wrapped">DreamTeam</span>
+						</div>
+					</div>
+					<div class="event_team_home_logo">
+						<img src="logo_billet/The_Dreamteam_logo.jpeg" alt="DreamTeam">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="game-time">
+			<div class="game-time_info">
+				<div class="time">18H15</div>
+			</div>
+		</div>
+	
+		<div class="reservation">
+			<div class="reservation_inner_wrapped">
+				<div class="reservation_reservation">
+					<span class="prix">À partir de 15€</span>
+				</div>
+			</div>
+		</div>
+	</div>
+    </li>
+
+    <li class="schedule">
+	<div class="tickets">
+		<div class="date">
+			<span class="day">Mercredi</span>
+			<span class="daytime-month">4 Mars</span>
+		</div>
+
+		<div class="event_team">
+		
+			<div class="event_team_visitor">
+				<div class="event_team_visitor_inner_wrapped">
+					<div class="event_team_visitor-details">
+						<div class="event_team_visitor-details_inner_wrapped">
+							<span class="city_visitor-details_inner_wrapped">Bordeaux</span>
+							<span class="team_name_visitor-details_inner_wrapped">Beast Bears</span>
+						</div>
+					</div>
+					<div class="event_team_visitor_logo">
+						<img src="logo_billet/equipe7.png" alt="Bears">
+					</div>
+				</div>
+			</div>
+		
+			<div class="event_team_wrapped">
+				<span class="vs">vs</span>
+			</div>
+		
+			<div class="event_team_home">
+				<div class="event_team_home_inner_wrapped">
+					<div class="event_team_home-details">
+						<div class="event_team_home-details_inner_wrapped">
+							<span class="city_home-details_inner_wrapped">Seine-Saint-Denis</span>
+							<span class="team_name_home-details_inner_wrapped">DreamTeam</span>
+						</div>
+					</div>
+					<div class="event_team_home_logo">
+						<img src="logo_billet/The_Dreamteam_logo.jpeg" alt="DreamTeam">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="game-time">
+			<div class="game-time_info">
+				<div class="time">20H00</div>
+			</div>
+		</div>
+	
+		<div class="reservation">
+			<div class="reservation_inner_wrapped">
+				<div class="reservation_reservation">
+					<span class="prix">À partir de 15€</span>
+				</div>
+			</div>
+		</div>
+	</div>
+    </li>
+
+    <li class="schedule">
+	<div class="tickets">
+		<div class="date">
+			<span class="day">Lundi</span>
+			<span class="daytime-month">30 Mars</span>
+		</div>
+
+		<div class="event_team">
+		
+			<div class="event_team_visitor">
+				<div class="event_team_visitor_inner_wrapped">
+					<div class="event_team_visitor-details">
+						<div class="event_team_visitor-details_inner_wrapped">
+							<span class="city_visitor-details_inner_wrapped">Paris</span>
+							<span class="team_name_visitor-details_inner_wrapped">Timberwolves</span>
+						</div>
+					</div>
+					<div class="event_team_visitor_logo">
+						<img src="logo_billet/equipe12.jpg" alt="Timberwolves">
+					</div>
+				</div>
+			</div>
+		
+			<div class="event_team_wrapped">
+				<span class="vs">vs</span>
+			</div>
+		
+			<div class="event_team_home">
+				<div class="event_team_home_inner_wrapped">
+					<div class="event_team_home-details">
+						<div class="event_team_home-details_inner_wrapped">
+							<span class="city_home-details_inner_wrapped">Seine-Saint-Denis</span>
+							<span class="team_name_home-details_inner_wrapped">DreamTeam</span>
+						</div>
+					</div>
+					<div class="event_team_home_logo">
+						<img src="logo_billet/The_Dreamteam_logo.jpeg" alt="DreamTeam">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="game-time">
+			<div class="game-time_info">
+				<div class="time">21H15</div>
+			</div>
+		</div>
+	
+		<div class="reservation">
+			<div class="reservation_inner_wrapped">
+				<div class="reservation_reservation">
+					<span class="prix">À partir de 15€</span>
+				</div>
+			</div>
+		</div>
+	</div>
+    </li>
+
+    <li class="schedule">
+	<div class="tickets">
+		<div class="date">
+			<span class="day">Samedi</span>
+			<span class="daytime-month">18 Avril</span>
+		</div>
+
+		<div class="event_team">
+		
+			<div class="event_team_visitor">
+				<div class="event_team_visitor_inner_wrapped">
+					<div class="event_team_visitor-details">
+						<div class="event_team_visitor-details_inner_wrapped">
+							<span class="city_visitor-details_inner_wrapped">Reims</span>
+							<span class="team_name_visitor-details_inner_wrapped">Rainmaker</span>
+						</div>
+					</div>
+					<div class="event_team_visitor_logo">
+						<img src="logo_billet/equipe9.jpg" alt="Rainmaker">
+					</div>
+				</div>
+			</div>
+		
+			<div class="event_team_wrapped">
+				<span class="vs">vs</span>
+			</div>
+		
+			<div class="event_team_home">
+				<div class="event_team_home_inner_wrapped">
+					<div class="event_team_home-details">
+						<div class="event_team_home-details_inner_wrapped">
+							<span class="city_home-details_inner_wrapped">Seine-Saint-Denis</span>
+							<span class="team_name_home-details_inner_wrapped">DreamTeam</span>
+						</div>
+					</div>
+					<div class="event_team_home_logo">
+						<img src="logo_billet/The_Dreamteam_logo.jpeg" alt="DreamTeam">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="game-time">
+			<div class="game-time_info">
+				<div class="time">22H00</div>
+			</div>
+		</div>
+	
+		<div class="reservation">
+			<div class="reservation_inner_wrapped">
+				<div class="reservation_reservation">
+					<span class="prix">À partir de 15€</span>
+				</div>
+			</div>
+		</div>
+	</div>
+    </li>
+
+    <li class="schedule">
+	<div class="tickets">
+		<div class="date">
+			<span class="day">Vendredi</span>
+			<span class="daytime-month">8 Mai</span>
+		</div>
+
+		<div class="event_team">
+		
+			<div class="event_team_visitor">
+				<div class="event_team_visitor_inner_wrapped">
+					<div class="event_team_visitor-details">
+						<div class="event_team_visitor-details_inner_wrapped">
+							<span class="city_visitor-details_inner_wrapped">Saint-Étienne</span>
+							<span class="team_name_visitor-details_inner_wrapped">Warriors</span>
+						</div>
+					</div>
+					<div class="event_team_visitor_logo">
+						<img src="logo_billet/equipe11.jpg" alt="Warriors">
+					</div>
+				</div>
+			</div>
+		
+			<div class="event_team_wrapped">
+				<span class="vs">vs</span>
+			</div>
+		
+			<div class="event_team_home">
+				<div class="event_team_home_inner_wrapped">
+					<div class="event_team_home-details">
+						<div class="event_team_home-details_inner_wrapped">
+							<span class="city_home-details_inner_wrapped">Seine-Saint-Denis</span>
+							<span class="team_name_home-details_inner_wrapped">DreamTeam</span>
+						</div>
+					</div>
+					<div class="event_team_home_logo">
+						<img src="logo_billet/The_Dreamteam_logo.jpeg" alt="DreamTeam">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="game-time">
+			<div class="game-time_info">
+				<div class="time">19H45</div>
+			</div>
+		</div>
+	
+		<div class="reservation">
+			<div class="reservation_inner_wrapped">
+				<div class="reservation_reservation">
+					<span class="prix">À partir de 15€</span>
+				</div>
+			</div>
+		</div>
+	</div>
+    </li>
+
+    <li class="schedule">
+	<div class="tickets">
+		<div class="date">
+			<span class="day">Samedi</span>
+			<span class="daytime-month">23 Mai</span>
+		</div>
+
+		<div class="event_team">
+		
+			<div class="event_team_visitor">
+				<div class="event_team_visitor_inner_wrapped">
+					<div class="event_team_visitor-details">
+						<div class="event_team_visitor-details_inner_wrapped">
+							<span class="city_visitor-details_inner_wrapped">Paris</span>
+							<span class="team_name_visitor-details_inner_wrapped">Timberwolves</span>
+						</div>
+					</div>
+					<div class="event_team_visitor_logo">
+						<img src="logo_billet/equipe12.jpg" alt="Timberwolves">
+					</div>
+				</div>
+			</div>
+		
+			<div class="event_team_wrapped">
+				<span class="vs">vs</span>
+			</div>
+		
+			<div class="event_team_home">
+				<div class="event_team_home_inner_wrapped">
+					<div class="event_team_home-details">
+						<div class="event_team_home-details_inner_wrapped">
+							<span class="city_home-details_inner_wrapped">Seine-Saint-Denis</span>
+							<span class="team_name_home-details_inner_wrapped">DreamTeam</span>
+						</div>
+					</div>
+					<div class="event_team_home_logo">
+						<img src="logo_billet/The_Dreamteam_logo.jpeg" alt="DreamTeam">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="game-time">
+			<div class="game-time_info">
+				<div class="time">17H45</div>
+			</div>
+		</div>
+	
+		<div class="reservation">
+			<div class="reservation_inner_wrapped">
+				<div class="reservation_reservation">
+					<span class="prix">À partir de 15€</span>
+				</div>
+			</div>
+		</div>
+	</div>
+    </li>
+
+  </ul>
+	
+  </main>
+
+  <footer id="bas-de-page">
+	<h2>bas de page</h2>
+  </footer>
+
+</div>	
+  </body>
+</html>

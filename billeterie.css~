@@ -1,0 +1,141 @@
+#principal{
+	width : 1200px;
+	margin-left: auto; 
+    	margin-right: auto;
+}
+
+#single-game{
+	list-style: none outside none;
+	position : relative;
+	right : 39px;
+}
+
+.schedule{
+	display : block;
+	width : 1200px;
+	height : 115px;
+}
+
+.tickets{
+	width : 1200px;
+	height : 115px;
+	border: 1px solid #DCDCDC;
+	border-collapse : collapse;
+}
+
+.date{
+	position : relative;
+	width : 100px;
+	top : 2em;
+	left : 10px;
+}
+
+.day{
+	font-size : medium;
+}
+
+.daytime-month{
+	font-size : 120%;
+	font-weight : lighter;
+	display : block;
+}
+
+.event_team{
+	position : relative;
+	left : 8em;
+	width : 750px;
+	height : 115px;
+	bottom : 38px;
+}
+
+.event_team_visitor{
+	width : 300px;
+	display : inline-block;
+}
+
+.event_team_visitor-details{
+	display : block;
+	width : 125px;
+	position : relative;
+	top : 2em;
+	left : 3em;
+	text-align : right;
+}
+
+.event_team_visitor_logo{
+	width : 80px;
+	position : relative;
+	left : 220px;
+	bottom : 1em;
+}
+
+.event_team_wrapped{
+	width : 20px;
+	position : relative;
+	left : 23em;
+	bottom : 4em;
+}
+
+.event_team_home{
+	position : relative;
+	width : 300px;
+	display : inline-block;
+	left : 25em;
+	bottom : 1em;
+}
+
+.event_team_home_inner_wrapped{
+	float : left;
+	height : 115px;
+}
+
+.event_team_home-details{
+	display : block;
+	width : 150px;
+	position : relative;
+	bottom : 5em;
+	left : 12em;
+}
+
+.event_team_home-details_inner_wrapped{
+	display : block;
+}
+
+.event_team_home_logo{
+	width : 80px;
+	position : relative;
+	bottom : 135px;
+	left : 4em;
+}
+
+.game-time{
+	position : relative;
+	left : 57em;
+	width : 80px;
+	bottom : 7em;
+	border-left : 1px solid gray;
+	text-align : center;
+}
+
+.reservation{
+	position : relative;
+	left : 66em;
+	width : 105px;
+	bottom : 148px;
+	background-color: #860038;
+	color: white;
+	text-decoration: none;
+	padding: .3em;
+	font-weight: bold;
+	text-align : center;
+}
+
+.reservation_reservation a{
+	color: white;
+	text-decoration : none;
+	display : block;
+}
+
+.tickets .reservation:hover{
+	background-color : #970741;
+}
